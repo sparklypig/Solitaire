@@ -1,0 +1,18 @@
+{
+  "name": "solitaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Solitaire.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-graphics-library": "github:sparklypig/ASCII-Graphics-Library",
+    "cards": "github:sparklypig/Cards",
+    "RawControl": "github:sparklypig/RawControl",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}
