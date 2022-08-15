@@ -96,6 +96,9 @@ class Board {
             }
             else if(!this.destination) {
                 this.setDestination()
+
+                console.log(this.source, this.destination)
+
                 this.moveSrctoDst()
                 if(this.source.top()) {
                     this.source.top().faceUp = true
